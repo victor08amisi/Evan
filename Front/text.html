@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="w3-display-container mySlides">
+        <img data-aos="fade-right"class="Images" src="Carousel1/brentandwillow.jpg" >
+        <br>
+        <br>
+        <h3 class="DescriptionIMG">
+          color
+        </h3>
+      </div>
+      
+      <div class="w3-display-container mySlides">
+        <img data-aos="fade-right"class="Images"src="Carousel1/coopgrouseevan.jpg">
+        <br>
+        <br>
+        <h3 class="DescriptionIMG">
+          Mountains!
+        </h3>
+      </div>
+      
+      <div class="w3-display-container mySlides">
+        <img  data-aos="fade-right"class="Images"src="Carousel1/evanandodie.jpg"  >
+        <br>
+        <br>
+        <h3 class="DescriptionIMG">
+          world
+        </h3>
+      </div>
+      <br>
+      <button class ="leftBTN" onclick="plusDivs1(-1)">&#10094;</button>
+      <button class="rightBTN" onclick="plusDivs1(1)">&#10095;</button>
+      <br>
+      <div class="longTextDiv">
+        <h2 class="longText">The story of Brantamort dates back to the 1970s, and spans from Manitoba to Cape Breton Island. For over 45 years, the Clarke Family has proudly maintained purebred lines of Labrador Retrievers, and dedicated their efforts toward breeding and training dogs characterized by favourable disposition, as well as reliable performance in both waterfowl and upland hunting settings. Conservation of the breed is paramount--financial gain is not.</h2>
+      </div>
+      
+      <!-- End of first slider -->
+      </div>
+      <script>
+        //Functions for sliding mechanism
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      
+      function plusDivs1(n) {
+        showDivs(slideIndex += n);
+      }
+      
+      function showDivs1(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+      }
+      </script>
+      
+  </body>
+</html>
