@@ -17,12 +17,8 @@ body {
   left: 0;
 }
 
-[aria-hidden="true"] {
-  display: none;
-}
-
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
   background: url("camo1.jpg") repeat-x;
   background-color: #87785b;
   background-attachment: fixed;
@@ -337,6 +333,10 @@ body {
   border: #33353d;
   border-radius: 20px;
   background-color: #ffe7a7;
+}
+.Tosh {
+  display: flex;
+  justify-content: center;
 }
 .longTextDiv2 {
   display: flex;
