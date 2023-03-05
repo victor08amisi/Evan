@@ -518,6 +518,6 @@ body {
     height: 3rem;
   }
   body {
-    background-attachment: fixed;
+    overscroll-behavior: contain;
   }
 }
