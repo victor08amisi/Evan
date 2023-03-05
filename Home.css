@@ -3,23 +3,16 @@
   box-sizing: border-box;
 }
 
-html,
 body {
   margin: 0;
   padding: 0;
-}
-.overlay {
-  position: fixed;
-  overflow-y: scroll;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-body {
   /* overflow: hidden; */
   background: url("camo1.jpg") repeat-x;
+}
+
+.Container {
+  background-position: center;
+  background-size: cover;
   background-color: #87785b;
   background-attachment: fixed;
 }
