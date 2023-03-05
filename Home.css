@@ -10,8 +10,8 @@ body {
 }
 
 body {
-  background-image: url("camo1.jpg") repeat-x;
-
+  background: url("camo1.jpg") repeat-x;
+  background-color: #87785b;
   background-attachment: fixed;
 }
 /*---------------------------------------------------------------------------*/
@@ -516,5 +516,8 @@ body {
     border-radius: 15px;
     width: 20rem;
     height: 3rem;
+  }
+  body {
+    background-attachment: fixed;
   }
 }
