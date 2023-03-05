@@ -11,13 +11,8 @@ body {
 
 body {
   background-image: url("camo1.jpg") repeat-x;
-  background-size: cover;
-  /* background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed; */
 
-  background-color: #87785b;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
 }
 /*---------------------------------------------------------------------------*/
 
@@ -119,6 +114,9 @@ body {
 }
 /*---End of media query for navigation----*/
 .longTextDiv {
+  color: white;
+}
+.longTextDiv2 {
   color: white;
 }
 .IntroText {
@@ -283,10 +281,11 @@ body {
 }
 
 .MainSectionSlideShow {
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-direction: column;
 }
 .leftBTN {
   cursor: pointer;
@@ -320,31 +319,59 @@ body {
   text-align: center;
   align-items: center;
   margin: 60px;
-  font-size: 1.5rem;
+  font-size: 2rem;
   border: #33353d;
   border-radius: 20px;
   background-color: #ffe7a7;
 }
+.longTextDiv2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 
+  font-size: 2rem;
+  border: #33353d;
+  border-radius: 20px;
+  background-color: #ffe7a7;
+}
+.longTextDiv3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  background-color: #ffe7a7;
+}
 .longText {
   color: black;
   font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  position: relative;
+}
+.longText2 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
 }
 .IntroText {
   margin-top: 1rem;
   color: black;
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: justify;
   font-family: "Times New Roman", Times, serif;
   background-color: #ffe7a7;
+  border-radius: 15px;
+  z-index: 10;
 }
 .HeritageText {
-  font-size: 1.5rem;
+  font-size: 3rem;
   margin-top: 1rem;
   color: black;
   text-align: justify;
   font-family: "Times New Roman", Times, serif;
   background-color: #ffe7a7;
+  border-radius: 15px;
 }
 .Images {
   width: 700px;
@@ -352,7 +379,7 @@ body {
   border-radius: 50px;
 }
 .DescriptionIMG {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: black;
   font-family: "Times New Roman", Times, serif;
   border-radius: 20px;
@@ -361,21 +388,57 @@ body {
 .w3-container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 @media (max-width: 1200px) {
+  .w3-container {
+    width: 350px;
+  }
+  .longText {
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2rem;
+  }
+
+  .longText2 {
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2rem;
+  }
   .longTextDiv {
     text-align: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 1rem;
     color: white;
+    height: 800px;
+    margin: 60px;
+    width: 400px;
+  }
+  .longTextDiv2 {
+    text-align: center;
+    align-items: center;
+    font-size: 1rem;
+    color: white;
+    height: 700px;
+    margin: 0px 0px;
+    height: 350px;
+    width: 400px;
+  }
+
+  .longTextDiv3 {
+    height: 150px;
+
+    width: 400px;
+    margin-bottom: 100px;
   }
   .IntroText {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
   .HeritageText {
     text-align: center;
-    font-size: 1rem;
+    font-size: 3rem;
+    align-items: center;
   }
   .Images {
     width: 450px;
