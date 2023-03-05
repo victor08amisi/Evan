@@ -4,19 +4,14 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  /* overflow: hidden; */
   background: url("camo1.jpg") repeat-x;
-}
-
-.Container {
-  background-position: center;
-  background-size: cover;
   background-color: #87785b;
   background-attachment: fixed;
 }
-
+.Container {
+  margin-top: 280px;
+  background-color: #87785b;
+}
 /*---------------------------------------------------------------------------*/
 
 /*---Style the navigation section----*/
