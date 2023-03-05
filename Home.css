@@ -8,12 +8,26 @@ body {
   margin: 0;
   padding: 0;
 }
+.overlay {
+  position: fixed;
+  overflow-y: scroll;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+[aria-hidden="true"] {
+  display: none;
+}
 
 body {
+  overflow: hidden;
   background: url("camo1.jpg") repeat-x;
   background-color: #87785b;
   background-attachment: fixed;
 }
+
 /*---------------------------------------------------------------------------*/
 
 /*---Style the navigation section----*/
@@ -397,6 +411,14 @@ body {
   align-items: center;
 }
 @media (max-width: 1200px) {
+  .DescriptionIMG {
+    font-size: 1.5rem;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    border-radius: 20px;
+    width: 300px;
+    background-color: #ffe7a7;
+  }
   .descIMg {
     justify-content: center;
     display: flex;
@@ -516,8 +538,5 @@ body {
     border-radius: 15px;
     width: 20rem;
     height: 3rem;
-  }
-  body {
-    overscroll-behavior: contain;
   }
 }
