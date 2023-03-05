@@ -354,6 +354,11 @@ body {
   font-family: "Times New Roman", Times, serif;
   font-size: 2rem;
 }
+.descIMg {
+  justify-content: center;
+  display: flex;
+}
+
 .IntroText {
   margin-top: 1rem;
   color: black;
@@ -383,6 +388,7 @@ body {
   color: black;
   font-family: "Times New Roman", Times, serif;
   border-radius: 20px;
+  width: 100%;
   background-color: #ffe7a7;
 }
 .w3-container {
@@ -391,6 +397,12 @@ body {
   align-items: center;
 }
 @media (max-width: 1200px) {
+  .descIMg {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+  }
   .w3-container {
     width: 350px;
   }
