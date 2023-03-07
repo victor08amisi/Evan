@@ -374,7 +374,7 @@ body {
 }
 
 .IntroText {
-  margin-top: 1rem;
+  margin-top: -200px;
   color: black;
   font-size: 3rem;
   text-align: justify;
@@ -385,7 +385,7 @@ body {
 }
 .HeritageText {
   font-size: 3rem;
-  margin-top: 1rem;
+  margin-top: -10rem;
   color: black;
   text-align: justify;
   font-family: "Times New Roman", Times, serif;
@@ -478,6 +478,7 @@ body {
     text-align: center;
     font-size: 3rem;
     align-items: center;
+    margin-top: 40px;
   }
   .Images {
     width: 400px;
