@@ -433,6 +433,7 @@ body {
     color: black;
     font-family: "Times New Roman", Times, serif;
     font-size: 2rem;
+    padding-left: 20px;
   }
 
   .longText2 {
@@ -444,9 +445,9 @@ body {
     align-items: center;
 
     color: white;
-    height: 600px;
+    height: 700px;
     margin: 60px;
-    width: 450px;
+    width: 400px;
   }
   .longTextDiv2 {
     text-align: center;
