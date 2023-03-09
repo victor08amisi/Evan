@@ -9,10 +9,11 @@ body {
   background-attachment: fixed;
 }
 .Container {
-  margin-top: 280px;
+  margin-top: 20px;
 
   background-size: cover;
 }
+
 /*---------------------------------------------------------------------------*/
 
 /*---Style the navigation section----*/
@@ -121,9 +122,7 @@ body {
 .IntroText {
   color: white;
 }
-.HeritageText {
-  color: white;
-}
+
 .Images {
   color: white;
 }
@@ -286,6 +285,18 @@ body {
   text-align: center;
   flex-direction: column;
 }
+
+.HeritageText1 {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: black;
+}
+.IntroText {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
 .leftBTN {
   cursor: pointer;
   font-family: futura;
@@ -315,110 +326,134 @@ body {
 .longTextDiv {
   display: flex;
   justify-content: center;
-
+  max-width: 1000px;
   align-items: center;
-  margin: 60px;
-  font-size: 2rem;
-  border: #33353d;
-  border-radius: 20px;
+  margin-top: 60px;
+  border: 2px solid rgb(192, 192, 192);
   background-color: #ffe7a7;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 300px;
+  margin-bottom: 100px;
 }
 .Tosh {
   display: flex;
   justify-content: center;
 }
 .longTextDiv2 {
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
-
+  max-width: 1000px;
   font-size: 2rem;
-  border: #33353d;
-  border-radius: 20px;
+  border: 2px solid rgb(192, 192, 192);
   background-color: #ffe7a7;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 200px;
 }
 .longTextDiv3 {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
-  border-radius: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 2px solid rgb(192, 192, 192);
   background-color: #ffe7a7;
 }
 .longTextDiv4 {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  border-radius: 20px;
+  flex-direction: column;
+  border: 2px solid rgb(192, 192, 192);
   background-color: #ffe7a7;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 1000px;
 }
-
+.longTextDiv4 p {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+  font-size: 2rem;
+}
 .longText {
   color: black;
   font-family: "Times New Roman", Times, serif;
   font-size: 2rem;
   position: relative;
-  text-align: start;
+  text-align: justify;
+}
+.longText1 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  position: relative;
+  text-align: justify;
 }
 .longText2 {
   color: black;
   font-family: "Times New Roman", Times, serif;
   font-size: 2rem;
-  text-align: start;
+  text-align: justify;
 }
 .descIMg {
   justify-content: center;
   display: flex;
 }
 
-.IntroText {
-  margin-top: -200px;
-  color: black;
-  font-size: 3rem;
-  text-align: justify;
-  font-family: "Times New Roman", Times, serif;
-  background-color: #ffe7a7;
-  border-radius: 15px;
-  z-index: 10;
-}
-.HeritageText {
-  font-size: 3rem;
-  margin-top: 40px;
-  color: black;
-  text-align: justify;
-  font-family: "Times New Roman", Times, serif;
-  background-color: #ffe7a7;
-  border-radius: 15px;
-}
 .Images {
-  width: 700px;
-  height: 700px;
-  border-radius: 50px;
+  width: 33vw;
+  min-width: 330px;
+  border-radius: 10px;
+}
+.ToshSection {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 100px;
+  border: 2px solid rgb(192, 192, 192);
+  height: 300px;
+  background-color: #ffe7a7;
+  max-width: 1000px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .DescriptionIMG {
+  padding-top: 10px;
   font-size: 2rem;
   color: black;
   font-family: "Times New Roman", Times, serif;
-  border-radius: 20px;
-  width: 100%;
-  background-color: #ffe7a7;
-  text-align: start;
+  text-align: justify;
 }
 .w3-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  border: 2px solid rgb(192, 192, 192);
+  height: 300px;
+  background-color: #ffe7a7;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 1000px;
 }
 @media (max-width: 1200px) {
+  body {
+    overflow-x: hidden;
+  }
+  .ToshSection {
+    width: 350px;
+    height: 900px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .DescriptionIMG {
-    font-size: 2rem;
-    color: black;
-    font-family: "Times New Roman", Times, serif;
-    border-radius: 10px;
-    width: 400px;
-    background-color: #ffe7a7;
+    text-align: start;
   }
   .descIMg {
     justify-content: center;
@@ -428,79 +463,108 @@ body {
   }
   .w3-container {
     width: 350px;
+    margin-top: 100px;
+    height: 500px;
   }
   .longText {
     color: black;
     font-family: "Times New Roman", Times, serif;
     font-size: 2rem;
-    padding-left: 20px;
+    text-align: start;
   }
 
   .longText2 {
     color: black;
     font-family: "Times New Roman", Times, serif;
     font-size: 2rem;
+    text-align: start;
+    padding-top: 20px;
   }
   .longTextDiv {
-    align-items: center;
-
+    margin-top: 60px;
     color: white;
-    height: 700px;
-    margin: 60px;
-    width: 400px;
+    height: 850px;
+    width: 350px;
+    margin-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
+
   .longTextDiv2 {
     text-align: center;
     align-items: center;
-
-    height: 700px;
-    margin: 0px 0px;
-    height: 350px;
-    width: 400px;
+    margin-top: 60px;
+    height: 400px;
+    width: 350px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .longTextDiv3 {
-    height: 150px;
-
-    width: 400px;
-    margin-bottom: 100px;
+    height: 120px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 350px;
   }
   .longTextDiv4 {
-    height: 150px;
-    margin-top: 100px;
-    width: 400px;
-    height: 850px;
+    margin-top: 20px;
+    width: 350px;
+    height: 1200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+  }
+  .longText {
+    text-align: start;
+
+    padding-left: 0px;
+  }
+  .longText1 {
+    text-align: start;
+
+    padding-left: 0px;
+  }
+  .longTextDiv4 p {
+    text-align: start;
+    font-size: 2rem;
   }
   .IntroText {
     text-align: center;
     font-size: 3rem;
   }
   .HeritageText {
-    text-align: center;
-    font-size: 3rem;
-    align-items: center;
-    margin-top: 40px;
+    text-align: start;
+    font-size: 1.5rem;
   }
   .Images {
-    width: 400px;
-    height: 500px;
-    border-radius: 50px;
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
   }
 }
 /* Form section */
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 .formSection {
   display: flex;
   justify-content: center;
-  text-align: center;
   margin-top: 100px;
+  align-items: center;
 }
 .contactUS {
   font-size: 2.5rem;
   color: black;
-  border-radius: 50px;
+  width: 250px;
+  align-items: center;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
+  border: 2px solid rgb(192, 192, 192);
   background-color: #ffe7a7;
+  padding-left: 0px;
 }
 .contactEmail {
   border-radius: 15px;
