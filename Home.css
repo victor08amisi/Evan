@@ -322,8 +322,30 @@ body {
   box-shadow: 5px 5px #c19a6b;
   margin: 10px;
 }
-.memberLink {
-  margin-bottom: 100px;
+.logoSection {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 300px;
+}
+.logoSection img {
+  margin: 0px 30px;
+}
+.memberLink1 {
+  width: 400px;
+  height: 100px;
+}
+.memberLink2 {
+  width: 300px;
+  height: 40px;
+}
+.memberLink3 {
+  width: 400px;
+  height: 100px;
+}
+.memberLink4 {
+  width: 200px;
+  height: 100px;
 }
 .longTextDiv {
   display: flex;
@@ -464,6 +486,7 @@ body {
   padding-right: 30px;
   max-width: 1000px;
 }
+
 @media (max-width: 1200px) {
   body {
     overflow-x: hidden;
@@ -665,5 +688,29 @@ form {
     border-radius: 15px;
     width: 20rem;
     height: 3rem;
+  }
+
+  .logoSection {
+    flex-direction: column;
+  }
+  .logoSection img {
+    margin: 20px 0px;
+  }
+
+  .memberLink1 {
+    width: 250px;
+    height: 60px;
+  }
+  .memberLink2 {
+    width: 250px;
+    height: 60px;
+  }
+  .memberLink3 {
+    width: 200px;
+    height: 60px;
+  }
+  .memberLink4 {
+    width: 150px;
+    height: 60px;
   }
 }
