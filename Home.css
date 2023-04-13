@@ -490,6 +490,12 @@ body {
   min-width: 330px;
   border-radius: 10px;
 }
+
+.mainIMG {
+  width: 33vw;
+  min-width: 330px;
+  border-radius: 10px;
+}
 .brentandwillow {
   width: 33vw;
   min-width: 330px;
@@ -525,7 +531,8 @@ body {
   background-color: #ffe7a7;
   padding-left: 30px;
   padding-right: 30px;
-  max-width: 1000px;
+  max-width: 600px;
+  height: 350px;
 }
 
 @media (max-width: 1200px) {
@@ -550,7 +557,7 @@ body {
   .w3-container {
     width: 350px;
     margin-top: 100px;
-    height: 300px;
+    height: 200px;
   }
   .longText {
     color: black;
