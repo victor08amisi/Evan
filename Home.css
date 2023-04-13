@@ -772,4 +772,9 @@ form {
     width: 120px;
     height: 80px;
   }
+  .mainIMG {
+    width: 500px;
+
+    border-radius: 10px;
+  }
 }
