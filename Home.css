@@ -13,7 +13,16 @@ body {
 
   background-size: cover;
 }
-
+.videoSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.iframSection {
+  width: 700px;
+  height: 500px;
+}
 /*---------------------------------------------------------------------------*/
 
 /*---Style the navigation section----*/
@@ -538,6 +547,16 @@ body {
 @media (max-width: 1200px) {
   body {
     overflow-x: hidden;
+  }
+  .videoSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .iframSection {
+    width: 370px;
+    height: 400px;
+    padding-left: 5px;
   }
   .ToshSection {
     width: 350px;
